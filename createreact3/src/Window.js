@@ -58,6 +58,7 @@ export default function Window() {
                 </ul>
             )}
             <button id="window" onClick={() => {setWindow(!window); change("window");}}>Hide</button>
+            {/* {window ? "Hide" : "Show"} */}
         </div>
         <div>
         <h1>Images</h1>
